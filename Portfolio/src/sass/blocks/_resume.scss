@@ -1,0 +1,90 @@
+.resume {
+    padding-top: 120px;
+    &__subtitle {
+        text-align: center;
+    }
+    &__wrapper {
+        padding: 60px 73px 0 73px;
+        display: grid;
+        grid-template-columns: repeat(2, 417px);
+        column-gap: 144px;
+    }
+    &__column {
+        &-title {
+            position: relative;
+            padding-left: 35px;
+            &:before {
+                content: '';
+                position: absolute;
+                left: -7px;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 15px;
+                height: 15px;
+                background-color: $main-color;
+                border-radius: 100%;
+
+            }
+        }
+        ul {
+            list-style-type: none;
+            li {
+                position: relative;
+                &:after {
+                    content: '';
+                    width: 1px;
+                    height: calc(100% + 16px);
+                    position: absolute;
+                    top: -16px;
+                    left: 0;
+                    background-color: #000000;
+                }
+            }
+        }
+    }
+    &__item {
+        position: relative;
+        &:before {
+            position: absolute;
+            top: 68px;
+            left: 0;
+            content: '';
+            height: 1px;
+            width: 45px;
+            background-color: #000000;
+        }
+        &-head {
+            position: relative;
+            padding: 45px 0 0 100px;
+            h4  {
+                margin-bottom: 0;
+            }
+        }
+        &-body {
+            padding-left: 43px;
+            margin-top: 12px;
+        }
+        &-icon {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            @include before-circle;
+            &:before {
+                left: -5px;
+            }
+            img {
+                position: absolute;
+                top: 14px;
+                left: 12px;
+            }
+        }
+        &-location {
+            font-size: 12px;
+            line-height: 18px;
+        }
+        &-body {
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+}
