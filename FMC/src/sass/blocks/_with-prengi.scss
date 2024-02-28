@@ -1,0 +1,63 @@
+.with-prengi {
+    padding: 80px 0 80px 0;
+    &__wrapper {
+        margin: 0 auto;
+        display: grid;
+        grid-template: repeat(3, 255px) / repeat(3, 360px);
+        column-gap: 30px;
+    }
+    &__arrow {
+        display: grid;
+        grid-column: 1/4;
+        grid-row: 2/3;
+        align-self: center;
+        justify-self: center;
+        &-photo {
+            text-align: center;
+        }
+        h1 {
+            margin-top: 33px;
+            text-align: center;
+            font-size: 48px;
+            font-weight: 700;
+        }
+    }
+    &__item1 {
+        position: relative;
+        background: url(../img/Pregni1.png);
+    }
+    &__item2 {
+        position: relative;
+        background: url(../img/Pregni2.png);
+    }
+    &__item3 {
+        position: relative;
+        background: url(../img/Pregni3.png);
+    }
+    &__item4 {
+        position: relative;
+        background: url(../img/Pregni4.png);
+    }
+    &__item5 {
+        position: relative;
+        background: url(../img/Pregni5.png);
+    }
+    &__item6 {
+        position: relative;
+        background: url(../img/Pregni6.png);
+    }
+    &__item-text {
+        width: 264px;
+        height: 43px;
+        position: absolute;
+        top: 176px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 300;
+        span {
+            font-weight: 700;
+        }
+    }
+}
