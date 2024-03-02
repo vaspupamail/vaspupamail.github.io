@@ -9,10 +9,36 @@
     font-weight: 700;
     text-transform: uppercase;
     color: #fff;
-    a {
-        color: #fff;
+    &:hover {
+        background-color: #0a7b97;
+    }
+    &:focus {
+        outline: none;
     }
     &_main {
         margin-top: 40px;
+        outline: none;
+    }
+    &_left {
+        z-index: 2;
+        position: absolute;
+        top: 220px;
+        left: -30px;
+        background-color: rgba(1, 1, 1, 0);
+        border: none;
+        &:focus {
+            outline: none;
+        }
+    }
+    &_right {
+        z-index: 2;
+        position: absolute;
+        top: 220px;
+        right: -30px;
+        background-color: rgba(1, 1, 1, 0);
+        border: none;
+        &:focus {
+            outline: none;
+        }
     }
 }

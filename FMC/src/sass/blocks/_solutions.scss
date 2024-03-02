@@ -42,27 +42,4 @@
         z-index: 2;
         margin: 0 auto;
     }
-    &__arrow-left {
-        z-index: 2;
-        position: absolute;
-        top: 220px;
-        left: -30px;
-        background-color: rgba(1, 1, 1, 0);
-        border: none;
-        outline: none;
-        &:focus {
-            outline: none;
-        }
-    }
-    &__arrow-right {
-        z-index: 2;
-        position: absolute;
-        top: 220px;
-        right: -30px;
-        background-color: rgba(1, 1, 1, 0);
-        border: none;
-        &:focus {
-            outline: none;
-        }
-    }
 }
