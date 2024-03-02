@@ -3,25 +3,12 @@
     height: 890px;
     position: relative;
     background: url(../img/background/solutions_bg.png) no-repeat 90%/cover;
-    &:after {
-        content: '';
-        position: absolute;
-        height: 100%;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(0,0,0,.5);
-        z-index: 1;
-    }
+    @include background__black;
     &__title {
         position: relative;
         z-index: 2;
         margin: 0 auto;
         h3 {
-            font-size: 30px;
-            font-weight: 900;
-            line-height: 1.2;
             text-align: center;
             color: #fff;
         } 

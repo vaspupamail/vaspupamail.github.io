@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 @import "libs/bootstrap-reboot.min";
+@import 'base/mixins';
 
+@import 'blocks/title';
 @import 'blocks/header';
 @import 'blocks/btn';
 @import 'blocks/with-prengi';
 @import 'blocks/solutions';
+@import 'blocks/advantages';
+@import 'blocks/deployment';
+@import 'blocks/connection';
+@import 'blocks/footer';
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 

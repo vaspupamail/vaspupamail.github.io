@@ -1,0 +1,67 @@
+.footer {
+    padding: 50px 0 40px 0;
+    background-color: #0a7b97;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__company {
+        width: 377px;
+        height: 248px;
+    }
+    h4 {
+        font-size: 16px;
+        font-weight: 700;
+        color: white;
+    }
+    &__subtitle {
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 300;
+        color: white;
+    }
+    &__moduls {
+        ul {
+            list-style-type: none;
+            a {
+                color: white;
+                font-size: 14px;
+                font-weight: 300;
+            }
+        }
+    }
+    &__industries {
+        ul {
+            list-style-type: none;
+            a {
+                color: white;
+                font-size: 14px;
+                font-weight: 300;
+            }
+        }
+    }
+    &__aboutus {
+        ul {
+            list-style-type: none;
+            a {
+                color: white;
+                font-size: 14px;
+                font-weight: 300;
+            }
+        }
+    }
+    hr {
+        margin: 40px 0 35px 0;
+    }
+    span {
+        display: block;
+        text-align: center;
+        color: white;
+        font-size: 13px;
+        font-weight: 300;
+        a {
+            color: white;
+        }
+    }
+    
+}

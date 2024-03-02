@@ -1,0 +1,59 @@
+.deployment {
+    padding-top: 80px;
+    position: relative;
+    height: 580px;
+    background: url(../img/background/deployment_bg.png) no-repeat 50%/cover;
+    @include background__black;
+    h3 {
+        position: relative;
+        text-align: center;
+        color: white;
+        z-index: 2;
+    }
+    &__wrapper {
+        position: relative;
+        margin-top: 128px;
+        display: flex;
+        justify-content: space-between;
+        z-index: 2;
+    }
+    &__variant1 {
+        h3 {
+            text-align: end;
+        }
+        width: 480px;
+        color: white;
+        text-align: end;
+        font-size: 17px;
+        font-weight: 300;
+        &:after {
+            content: '';
+            position: absolute;
+            top: -35px;
+            left: 350px;
+            width: 167px;
+            height: 167px;
+            opacity: 0.3;
+            background-color: #00c2f0;
+        }
+    }
+    &__variant2 {
+        h3 {
+            text-align: start;
+        }
+        width: 480px;
+        color: white;
+        font-size: 17px;
+        font-weight: 300;
+        &:after {
+            content: '';
+            position: absolute;
+            top: -35px;
+            left: 620px;
+            width: 167px;
+            height: 167px;
+            opacity: 0.3;
+            background-color: #00c2f0;
+        }
+    }
+}

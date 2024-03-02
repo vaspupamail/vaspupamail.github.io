@@ -26,17 +26,7 @@
     height: 700px;
     position: relative;
     background: url(../img/background/promo_bg.jpg) no-repeat 65%/cover;
-    &:after {
-        content: '';
-        position: absolute;
-        height: 700px;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(0,0,0,.5);
-        z-index: 1;
-    }
+    @include background__black;
     &__logo {
         z-index: 2;
     }
