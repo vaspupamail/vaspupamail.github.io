@@ -33,8 +33,6 @@
         width: 340px;
         display: flex;
         justify-content: space-between;
-
-
     }
     &__phone {
         width: 161px;
@@ -83,14 +81,12 @@
     }
     h1 {
         margin-top: 20px;
-        text-align: center;
         font-size: 62px;
         font-weight: 700;
         color:#ec644b;
         font-stretch: condensed;
     }
     h2 {
-        text-align: center;
         font-size: 37px;
         font-weight: 400;
         color: white;
@@ -139,6 +135,7 @@
         }
     }
     .btn_230 {
+        padding-top: 3px;
         margin: 30px auto 0 auto;
     }
 }

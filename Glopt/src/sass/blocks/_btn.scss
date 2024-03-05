@@ -1,4 +1,5 @@
 .btn {
+    display: block;
     background-color: #ec644b;
     width: 160px;
     height: 45px;
@@ -8,16 +9,19 @@
     text-transform: uppercase;
     border: none;
     border-radius: 30px;
+    padding-top: 3px;
     &_230 {
-        display: block;
         width: 230px;
         height: 57px;
         font-size: 15px;
         font-weight: 700;
     }
     &_180 {
-        display: block;
         width: 180px;
+        height: 45px;
+    }
+    &_160 {
+        width: 160px;
         height: 45px;
     }
 }

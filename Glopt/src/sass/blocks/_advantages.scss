@@ -1,0 +1,30 @@
+.advantages {
+    padding: 58px 0 50px 0;
+    background-color: #f3f3f3;
+    &__wrapper {
+        margin-top: 32px;
+        display: grid;
+        grid-template: repeat(4, minmax(62px, auto)) / repeat(2, 550px);
+        grid-auto-rows: minmax(62px, auto);
+        justify-content: space-between;
+        row-gap: 30px;
+    }
+    &__item {
+        display: grid;
+        grid-template-columns: 58px minmax(410px, 445px);
+        column-gap: 20px;
+        img {
+            margin-top: 5px;
+        }
+    }
+    &__subtitle {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 5px;
+        color: #ec644b;
+    }
+    &__text {
+        font-size: 14px;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,31 @@
+.schemes {
+    padding: 50px 0 45px 0;
+    background-color: #f3f3f3;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    &__item {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__icon {
+        width: 50px;
+        height: 50px;
+    }
+    &__subheader {
+        font-size: 16px;
+        font-weight: 700;
+        color: #ec644b;
+    }
+    &__text {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.43; 
+        text-align: center;
+    }
+}
