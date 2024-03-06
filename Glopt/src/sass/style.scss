@@ -11,6 +11,9 @@
 @import 'blocks/consultation';
 @import 'blocks/managers';
 @import 'blocks/schemes';
+@import 'blocks/reviews';
+@import 'blocks/questions';
+@import 'blocks/map';
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -22,6 +25,6 @@
     position: relative;
     max-width: 1140px;
     margin: 0 auto;
-    z-index: 2;
+    z-index: 1;
 }
 

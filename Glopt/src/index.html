@@ -213,7 +213,7 @@
             <div class="consultation__input">
                 <input type="text" name="name" required placeholder="Ваше имя...">
                 <input type="text" name="phone" required placeholder="Ваш номер телефона...">
-                <input type="e-mail" name="e-mail" required placeholder="Ваш e-mail...">
+                <input type="email" name="email" required placeholder="Ваш e-mail...">
                 <button class="btn btn_180">Отправить заявку</button>
             </div>
         </form>
@@ -288,5 +288,49 @@
         </div>
     </div>
 </section>
+
+<section class="reviews">
+    <div class="container">
+        <h3 class="title title_fz26">отзывы наших клиентов</h3>
+        <div class="reviews__line"></div>
+        <div class="reviews__subtitle">Мы всегда стараемся помочь клиентам, что бы они обращались к нам снова</div>
+        <div class="slider">
+            <div class="item">
+                <a class="previous" onclick="previousSlide()"><img src="icons/prev.png" alt="next"></a>
+                <div class="item__1">
+                    <div class="item__1-photo"><img src="img/reviews.png" alt="r"></div>
+                    <div class="item__1-name">Анисимова Ольга</div>
+                    <div class="item__1-text">Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div> 
+                </div>           
+                <a class="next" onclick="nextSlide()"><img src="icons/next.png" alt="next"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="questions">
+    <div class="container">
+        <div class="questions__box">
+            <div class="questions__title"><span>Остались вопросы?</span> <br> Напишите нам!</div>
+            <form action="#" class="questions__form">
+                <input type="text" name="name" required placeholder="Ваше имя...">
+                <input type="text" name="phone" required placeholder="Ваш номер телефона...">
+                <input type="email" name="email" required placeholder="Ваш e-mail...">
+                <textarea name="text" id="textarea" placeholder="Сообщение..."></textarea>
+                <button class="btn btn_180">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="map">
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.614879668324!2d37.627197811876215!3d55.74782018627819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54af8f4b2bb81%3A0x45d8b81f41916c35!2z0KHQsNC00L7QstC90LjRh9C10YHQutCw0Y8g0YPQuy4sIDUsINCc0L7RgdC60LLQsCwgMTE1MDM1!5e0!3m2!1sru!2sru!4v1633505757907!5m2!1sru!2sru"
+        style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+</section>
+
+<!-- <script src="js/script.js"></script> -->
 </body>
 </html>
