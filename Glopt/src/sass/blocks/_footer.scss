@@ -1,0 +1,73 @@
+.footer {
+    padding-top: 24px;
+    padding-bottom: 39px;
+    background-color: #25333c;
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title {
+        margin-right: 200px;
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &__contacts {
+        width: 340px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__phone {
+        width: 161px;
+        text-align: end;
+        &-subheader {
+            font-size: 14px;
+            font-weight: 300;
+            color: white;
+            line-height: 1.71;
+        }
+        &-tel {
+            font-size: 18px;
+            font-weight: 700;
+            text-decoration: none; 
+            color: white;
+            line-height: 1.26;
+            &:hover {
+                color: #ec644b;
+            }
+        }
+    }
+    &__line {
+        background-color: rgba(#fff, .3);
+        margin-top: 26px;
+        height: 1px;
+        width: 100%;
+    }
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+    &__copy {
+        font-size: 13px;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    &__policy-link {
+        font-size: 13px;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.6);
+        &:hover {
+            color: #ec644b;
+        }
+        
+    }
+    &__creature-site {
+        font-size: 13px;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.6);
+
+    }
+}   

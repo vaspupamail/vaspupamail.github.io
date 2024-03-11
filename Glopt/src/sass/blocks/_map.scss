@@ -1,6 +1,40 @@
 .map {
     position: relative;
+    &__info {
+        position: absolute;
+        padding: 20px 40px;
+        left: 50%;
+        top: 20%;
+        width: 320px;
+        height: 150px;
+        background-color: white;
+        &-city {
+            font-size: 16px;
+            font-weight: 700;
+            color: #ec644b;
+        }
+        &-addr {
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 5px;
+        }
+        &-phone {
+            display: block;
+            font-size: 14px;
+            text-decoration: none;
+            color: black;
+        }
+        &-email {
+            display: block;
+            font-size: 14px;
+            color: #ec644b;
+            &:hover {
+            color: #ec644b;
+            }
+        }
+    }
     iframe {
         width: 100%;
         height: 500px;
     }
+}

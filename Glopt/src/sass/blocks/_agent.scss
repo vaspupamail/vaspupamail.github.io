@@ -3,17 +3,7 @@
     position: relative;
     height: 342px;
     background: url(../img/background_agent.png) center center/cover no-repeat;
-    &::after {
-        content: '';
-        position: absolute;
-        height: 100%;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(0,0,0,.5);
-        z-index: 0;
-    }
+    @include after_bg;
     &__round {
         margin: 0 auto;
         display: flex;

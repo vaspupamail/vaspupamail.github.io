@@ -6,46 +6,34 @@
         text-align: center;
         margin-bottom: 20px;
     }
-    &__round {
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 102px;
-        height: 102px;
-        border: 1px solid;
-        border-radius: 100%;
-        color: #ec644b;
-        background-color: #fff;
-    }
     &__form {
         position: relative;
         margin: 70px auto 0 auto;
         width: 1140px;
         height: 166px;
-        border: 1px solid #ec644b;
+        border: 1px solid rgba(0, 0, 0, 0.21);
         display: flex;
         padding-top: 68px;
         justify-content: center;
-        label {
+        &-round {
             position: absolute;
-            top: -30%;
+            border: 1px solid #ec644b;
+            border-radius: 100%;
+            top: -32%;
             left: 50%;
             transform: translateX(-50%);
-        }
-        input {
-           width: 268px; 
-           height: 45px;
-           padding: 0 28px;
-           border: 1px solid #ec644b;
-           border-radius: 30px;
-           &::placeholder {
-            font-size: 13px;
-            font-weight: 300;
-           }
+            z-index: 1;
+            background-color: #fff;
+            width: 102px;
+            height: 102px;
+        img {
+            position: absolute;
+            right: 19px;
+            top: 15px;
+            }
         }
         button {
-            margin: 30px auto 0 auto;
+            margin: 28px auto 0 auto;
         }
     }
 }   

@@ -1,11 +1,5 @@
 .ourwork {
     padding: 50px 0 55px 0;
-    &__line {
-        margin: 20px auto 20px auto;
-        width: 150px;
-        height: 1px;
-        background-color: #ec644b;
-    }
     &__subtitle {
         text-align: center;
         font-size: 21px;
@@ -14,21 +8,24 @@
     }
     &__wrapper {
         margin-top: 35px;
-        display: grid;
-        grid-template-columns: repeat(3, 360px);
-        column-gap: 30px;
+        display: flex;
+        justify-content: space-between;
     }
-    &__subheader {
-        margin-top: 27px;
-        font-size: 18px;
-        font-weight: 700;
+    &__item {
+        width: 360px;
         text-align: center;
-        color: #ec644b;
-    }
-    &__text {
-        margin-top: 5px;
-        font-size: 14px;
-        font-weight: 300;
-        text-align: center;
+        &-subheader {
+            margin-top: 27px;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+            color: #ec644b;
+        }
+        &-text {
+            margin-top: 5px;
+            font-size: 14px;
+            font-weight: 300;
+            text-align: center;
+        }
     }
 }

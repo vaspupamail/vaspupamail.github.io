@@ -1,8 +1,6 @@
 .btn {
     display: block;
     background-color: #ec644b;
-    width: 160px;
-    height: 45px;
     color: white;
     font-size: 12px;
     font-weight: 400;
@@ -10,6 +8,9 @@
     border: none;
     border-radius: 30px;
     padding-top: 3px;
+    &:hover {
+        background-color: rgba(#ec644b, .8);
+    }
     &_230 {
         width: 230px;
         height: 57px;

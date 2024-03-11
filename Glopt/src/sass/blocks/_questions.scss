@@ -3,18 +3,8 @@
     position: relative;
     height: 438px;
     background: url(../img/background_form.png) center center/cover no-repeat;
-    &::after {
-        content: '';
-        position: absolute;
-        height: 100%;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(0,0,0,.5);
-        z-index: 0;
-    }
-    &__box {
+    @include after_bg;
+    &__wrapper {
         margin: 0 auto;
         width: 896px;
         height: 297px;
@@ -38,35 +28,25 @@
         }
     }
     &__form {
-        margin: 20px auto 0 auto;
-        width: 813px;
-        display: grid;
-        grid-template: 45px 70px / repeat(3, 1fr);
-        column-gap: 6px;
-        row-gap: 8px;
-        input {
-            padding: 0 28px;
-            border: solid 1px grey;
-            border-radius: 30px;
-            &::placeholder {
-                font-size: 13px;
-                font-weight: 300;
-            }
-        }
-        textarea {
-            grid-column: 1/4;
+        padding-top: 18px;
+        padding-bottom: 25px;
+        text-align: center;
+        &-textarea {       
+            width: 812px;
+            height: 70px;
+            margin-top: 7px; 
             padding: 10px 25px;
-            border: solid 1px grey;
+            border: solid 1px rgba(0, 0, 0, 0.21);
             border-radius: 10px;
+            resize: none;
+            outline: none;
             &::placeholder {
                 font-size: 13px;
                 font-weight: 300;
             }
         }
         button {
-            margin-top: 9px;
-            grid-column: 2/3;
-            justify-self: center;
+            margin: 9px auto 0 auto;
         }
     }
 } 
