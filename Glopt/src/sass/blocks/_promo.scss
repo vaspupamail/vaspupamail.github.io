@@ -1,41 +1,40 @@
 .header {
-    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    nav {
-        width: 600px;
-        ul {
-            padding: 0;
-            display: flex;
-            justify-content: space-between;
-            font-size: 15px;
-            font-weight: 400;
-            list-style-type: none;
-            li {
-                padding-right: 12px;
-                border-right: 1px dotted white;
-                &:last-child {
-                    border: none;
-                }
-                a {
-                    color: white;
-                    text-decoration: none;
-                    &:hover {
-                        text-decoration: underline;
-                        color: #ec644b;
-                    }
-                }
-            } 
-        }     
+    &__subheader {
+        display: none;
     }
-    &__contacts {
-        width: 340px;
+    &__menu {
+        width: 600px;  
+        padding: 0;
         display: flex;
         justify-content: space-between;
+        font-size: 15px;
+        font-weight: 400;
+        list-style-type: none;
+        margin-bottom: 0;
+        li {
+            padding-right: 12px;
+            border-right: 1px dotted white;
+            &:last-child {
+                border: none;
+            }
+            a {
+                color: white;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                    color: #ec644b;
+                }
+            }
+        } 
+    }
+    &__contacts {
+        display: flex;
     }
     &__phone {
-        width: 161px;
+        margin-right: 5px;
         text-align: end;
         &-subheader {
             font-size: 14px;
@@ -54,13 +53,29 @@
             }
         }
     }
+    &__hamburger {
+        height: 21px;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: end;
+        span {
+            display: block;
+            height: 3px;
+            width: 30px;
+            background-color: #ec644b;
+            &.long {
+                width: 36px;
+            }
+        }
+    }
 }
 
 .promo {
-    padding-top: 23px;
+    padding: 23px 0 82px;
     position: relative;
     width: 100vw;
-    height: 680px;
+    min-height: 680px;
     background: url(../img/background_header.png) center center/cover no-repeat;
     @include after_bg;
     &__subheader {
@@ -89,7 +104,7 @@
         height: 9px;
         background-color: #fff;
         border-radius: 100%;
-        margin: auto;
+        margin: 0 auto 15px auto;
         &:after,
         &:before {
             content: '';
@@ -108,7 +123,7 @@
         }
     }
     &__wrapper {
-        margin-top: 27px;
+        margin-bottom: 30px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -127,8 +142,8 @@
             color: white;
         }
     }
-    .btn_230 {
+    &__button {
         padding-top: 3px;
-        margin: 30px auto 0 auto;
+        margin: 0 auto;
     }
 }

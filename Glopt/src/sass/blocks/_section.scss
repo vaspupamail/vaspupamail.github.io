@@ -1,9 +1,16 @@
-.managers {
+.section {
     padding-top: 55px;
     position: relative;
-    height: 342px;
-    background: url(../img/background_managers.png) center center/cover no-repeat;
-    @include after_bg;
+    min-height: 342px;
+    &_agent {
+        background: url(../img/background_agent.png) center center/cover no-repeat;
+        @include after_bg;
+    }
+    &_managers {
+        background: url(../img/background_managers.png) center center/cover no-repeat;
+        @include after_bg;
+    }
+    
     &__round {
         margin: 0 auto;
         display: flex;
@@ -20,6 +27,7 @@
         color: white;
     }
     &__descr {
+        max-width: 984px;
         margin-top: 22px;
         text-align: center;
         color: white;
@@ -27,4 +35,4 @@
         font-weight: 300;
         line-height: 1.42;
     }
-}    
+}

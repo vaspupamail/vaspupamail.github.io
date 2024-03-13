@@ -13,22 +13,26 @@
     <div class="container">
         <header class="header">
             <a class="header__logo" href="#"><img src="img/logo/logoB.png" alt="Glopt"></a>
-            <nav>
-                <ul>
-                    <li><a href="#">Преимущества</a></li>
-                    <li><a href="#">Наша работа</a></li>
-                    <li><a href="#">Цены</a></li>
-                    <li><a href="3">Схемы работы</a></li>
-                    <li><a href="#">Отзывы</a></li>
-                    <li><a href="#">Контакты</a></li>
+            <div class="header__subheader">Global Opt - логистика полного цикла из Китая в Россию</div>
+                <ul class="header__menu">
+                    <li class="header__menu-item"><a href="#advantages">Преимущества</a></li>
+                    <li class="header__menu-item"><a href="#ourwork">Наша работа</a></li>
+                    <li class="header__menu-item"><a href="#price">Цены</a></li>
+                    <li class="header__menu-item"><a href="#schemes">Схемы работы</a></li>
+                    <li class="header__menu-item"><a href="#reviews">Отзывы</a></li>
+                    <li class="header__menu-item"><a href="#contacts">Контакты</a></li>
                 </ul>
-            </nav>
             <div class="header__contacts">
                 <div class="header__phone">
                     <div class="header__phone-subheader">Есть вопросы?</div>
                     <a href="tel:+7(926)4230100" class="header__phone-tel">+7 (926) 423 01 00</a>
                 </div>
-                <button class="btn btn_160">Перезвоните мне</button>
+                <button class="btn btn_160 header__button">Перезвоните мне</button>
+            </div>
+            <div class="header__hamburger">
+                <span></span>
+                <span class="long"></span>
+                <span></span>
             </div>
         </header>
         <div class="promo__subheader">Global Opt - логистика полного цикла из Китая в Россию</div>
@@ -53,11 +57,11 @@
                 <div class="promo__item-descr">Экспресс доставка 1-2 дня из Гуанчжоу в Москву от 25$/кг</div>
             </div>
         </div>
-        <button class="btn btn_230">Получить расчет</button>
+        <button class="btn btn_230 promo__button">Получить расчет</button>
     </div>
 </section>
 
-<section class="advantages">
+<section class="advantages" id="advantages">
     <div class="container">
         <h3 class="title title_fz26">Преимущества работы с GlobalOpt</h3>
         <div class="advantages__wrapper">
@@ -121,7 +125,7 @@
     </div>
 </section>
 
-<section class="ourwork">
+<section class="ourwork" id="ourwork">
     <div class="container">
         <h3 class="title title_fz26">Наша работа - больше чем просто доставка</h3>
         <div class="divider"></div>
@@ -147,18 +151,17 @@
     </div>
 </section>
 
-<section class="agent">
+<section class="section section_agent">
     <div class="container">
-        <div class="agent__round">
+        <div class="section__round">
             <img src="icons/agents_icon.png" alt="Агент в Китае">
         </div>
-        <h3 class="agent__title title title_fz26">Агент в Китае</h3> 
-        <div class="agent__descr">Русскоговорящие представители компании без труда найдут именно тот товар, который будет отвечать <br>
-            Вашим запросам как по качеству, так и по цене.</div>
+        <h3 class="section__title title title_fz26">Агент в Китае</h3> 
+        <div class="section__descr">Русскоговорящие представители компании без труда найдут именно тот товар, который будет отвечать Вашим запросам как по качеству, так и по цене.</div>
         </div>
 </section>
 
-<section class="price">
+<section class="price" id="price">
     <div class="container">
         <h3 class="title title_fz26">Цены на любой вариант доставки</h3>
         <div class="divider"></div>
@@ -170,28 +173,28 @@
                 <img src="icons/price_i1.png" alt="Доставка морем">
                 <div class="price__item-price">ДОСТАВКА 35-50 ДНЕЙ<br><span>от 0,3$ за 1 кг</span></div>
                 <div class="price__item-descr">Морские перевозки грузов из Китая в Россию за 35 дней с прохождением таможни</div>
-                <button class="btn btn_160">ПОДРОБНЕЕ</button>
+                <button class="btn btn_160 price__item-button">ПОДРОБНЕЕ</button>
             </div>
             <div class="price__item">
                 <div class="price__item-delivery">Ж/Д ДОСТАВКА</div>
                 <img src="icons/price_i2.png" alt="Ж/Д доставка">
                 <div class="price__item-price">ДОСТАВКА 15-28 ДНЕЙ<br><span>от 1$ за 1 кг</span></div>
                 <div class="price__item-descr">ЖД перевозки грузов из Китая в Россию от 2 недель с прохождением таможни</div>
-                <button class="btn btn_160">ПОДРОБНЕЕ</button>
+                <button class="btn btn_160 price__item-button">ПОДРОБНЕЕ</button>
             </div>
             <div class="price__item">
                 <div class="price__item-delivery">АВТОДОСТАВКА</div>
                 <img src="icons/price_i3.png" alt="Автодоставка">
                 <div class="price__item-price">ДОСТАВКА 12-20 ДНЕЙ<br><span>от 1$ за 1 кг</span></div>
                 <div class="price__item-descr">Автоперевозки грузов из Китая в Россию от 2 недель с прохождением таможни</div>
-                <button class="btn btn_160">ПОДРОБНЕЕ</button>
+                <button class="btn btn_160 price__item-button">ПОДРОБНЕЕ</button>
             </div>
             <div class="price__item">
                 <div class="price__item-delivery">АВИА ДОСТАВКА</div>
                 <img src="icons/price_i4.png" alt="Авиа доставка">
                 <div class="price__item-price">ДОСТАВКА 1-12 ДНЕЙ<br><span>от 6$ за 1 кг</span></div>
                 <div class="price__item-descr">Авиаперевозки грузов из Китая в Россию до 2 недель с прохождением таможни</div>
-                <button class="btn btn_160">ПОДРОБНЕЕ</button>
+                <button class="btn btn_160 price__item-button">ПОДРОБНЕЕ</button>
             </div>
         </div>
     </div>
@@ -208,26 +211,25 @@
                 <input type="text" name="name" required placeholder="Ваше имя...">
                 <input type="text" name="phone" required placeholder="Ваш номер телефона...">
                 <input type="email" name="email" required placeholder="Ваш e-mail...">
-                <button class="btn btn_180">Отправить заявку</button>
+                <button class="btn btn_180 consultation__button">Отправить заявку</button>
             </div>
         </form>
     </div>
 </section>
 
-<section class="managers">
+<section class="section section_managers">
     <div class="container">
-        <div class="managers__round">
+        <div class="section__round">
             <img src="icons/managers_icon.png" alt="Менеджеры компании">
         </div>
-        <h3 class="managers__title title title_fz26">Менеджеры компании</h3> 
-        <div class="agent__descr">Подберут для Вас оптимальную схему грузоперевозки. Проведут контроль закупок, организуют прямые <br>
-            поставки от завода-изготовителя.
+        <h3 class="section__title title title_fz26">Менеджеры компании</h3> 
+        <div class="section__descr">Подберут для Вас оптимальную схему грузоперевозки. Проведут контроль закупок, организуют прямые поставки от завода-изготовителя.
         </div>
         </div>
     </div>
 </section>
 
-<section class="schemes">
+<section class="schemes" id="schemes">
     <div class="container">
         <h3 class="title title_fz26">Схема работы с нами</h3>
         <div class="schemes__wrapper">
@@ -284,7 +286,7 @@
     </div>
 </section>
 
-<section class="reviews">
+<section class="reviews" id="reviews">
     <div class="container">
         <h3 class="title title_fz26">отзывы наших клиентов</h3>
         <div class="divider"></div>
@@ -330,13 +332,13 @@
                 <input type="text" name="phone" required placeholder="Ваш номер телефона...">
                 <input type="email" name="email" required placeholder="Ваш e-mail...">
                 <textarea class="questions__form-textarea" name="text" id="textarea" placeholder="Сообщение..."></textarea>
-                <button class="btn btn_180">Отправить заявку</button>
+                <button class="btn btn_180 questions__button">Отправить заявку</button>
             </form>
         </div>
     </div>
 </section>
 
-<section class="map">
+<section class="map" id="contacts">
     <div class="map__info">
         <div class="map__info-city">г. Москва</div>
             <address class="map__info-addr">
@@ -355,9 +357,9 @@
 <footer class="footer">
     <div class="container">
         <div class="footer__top">
-            <div class="footer__logo">
+            <a class="footer__logo">
                 <img src="img/logo/logoS.png" alt="Glopt">
-            </div>
+            </a>
             <div class="footer__title">
                 Global Opt - Доставка грузов из Китая в Россию и СНГ
             </div>
@@ -366,7 +368,7 @@
                     <div class="footer__phone-subheader">Есть вопросы?</div>
                     <a href="tel:+7(926)4230100" class="footer__phone-tel">+7 (926) 423 01 00</a>
                 </div>
-                <button class="btn btn_160">Перезвоните мне</button>
+                <button class="btn btn_160 footer__button">Перезвоните мне</button>
             </div>
         </div>
         <div class="footer__line"></div>
@@ -377,9 +379,7 @@
                 <span class="footer__creature-site">Создание сайта</span>
                 <img class="footer__creature-images" src="img/logo/logoll.png" alt="footer-icon">
             </div>
-        </div>
-        
-        
+        </div>    
     </div>
 </footer>
 

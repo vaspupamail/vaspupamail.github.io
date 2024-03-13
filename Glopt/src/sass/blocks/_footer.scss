@@ -1,6 +1,5 @@
 .footer {
-    padding-top: 24px;
-    padding-bottom: 39px;
+    padding: 24px 0 39px 0;
     background-color: #25333c;
     &__top {
         display: flex;
@@ -14,18 +13,16 @@
         font-weight: 700;
     }
     &__contacts {
-        width: 340px;
         display: flex;
-        justify-content: space-between;
     }
     &__phone {
-        width: 161px;
+        margin-right: 5px;
         text-align: end;
         &-subheader {
             font-size: 14px;
             font-weight: 300;
             color: white;
-            line-height: 1.71;
+            line-height: 1.5;
         }
         &-tel {
             font-size: 18px;

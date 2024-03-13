@@ -4,14 +4,14 @@
     &__wrapper {
         margin-top: 32px;
         display: grid;
-        grid-template: repeat(4, minmax(62px, auto)) / repeat(2, 550px);
+        grid-template: repeat(4, minmax(62px, auto)) / repeat(auto-fit, 550px);
         grid-auto-rows: minmax(62px, auto);
         justify-content: space-between;
         row-gap: 30px;
     }
     &__item {
         display: grid;
-        grid-template-columns: 58px minmax(410px, 445px);
+        grid-template-columns: 58px auto;
         column-gap: 20px;
         &-subheader {
             font-size: 16px;

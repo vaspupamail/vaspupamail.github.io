@@ -8,15 +8,15 @@
 @import 'blocks/promo';
 @import 'blocks/advantages';
 @import 'blocks/ourwork';
-@import 'blocks/agent';
+@import 'blocks/section';
 @import 'blocks/price';
 @import 'blocks/consultation';
-@import 'blocks/managers';
 @import 'blocks/schemes';
 @import 'blocks/reviews';
 @import 'blocks/questions';
 @import 'blocks/map';
 @import 'blocks/footer';
+@import 'blocks/media';
 
 
 * {
@@ -28,9 +28,9 @@
 
 .container {
     position: relative;
-    max-width: 1140px;
+    width: 1140px;
     margin: 0 auto;
-    z-index: 1;
+    // z-index: 0;
 }
 
 .divider {
