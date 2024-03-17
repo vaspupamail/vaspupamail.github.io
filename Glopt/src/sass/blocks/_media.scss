@@ -65,7 +65,7 @@
             background-color: rgba(236, 100, 75, 0.9);;
             transition: .6s all;
             font-size: 30px;
-            z-index: 1;
+            z-index: 10;
             li {
                 border: none;
                 margin: 10px;
@@ -84,6 +84,20 @@
         }
         &__hamburger {
             display: flex;
+            &_active {
+                span {
+                    margin-bottom: -4px;
+                    &:nth-child(1) {
+                        transform: rotate(-45deg);
+                    }
+                    &:nth-child(2) {
+                        display: none;
+                    }
+                    &:nth-child(3) {
+                        transform: rotate(45deg);
+                    }
+                }
+            }
         }
         &__subheader {
             display: block;
@@ -292,6 +306,7 @@
         }
     }
     .header {
+        justify-content: space-around;
         &__menu {
             width: 70%;
             font-size: 20px;
