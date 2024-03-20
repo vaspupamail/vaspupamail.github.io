@@ -1,12 +1,12 @@
 {
-	"name": "portfolio_starter",
+	"name": "Globalopt",
 	"version": "1.0.0",
 	"description": "",
 	"main": "gulpfile.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": "",
+	"author": "Vlad_Shopyak",
 	"license": "ISC",
 	"devDependencies": {
 		"browser-sync": "^2.29.3",

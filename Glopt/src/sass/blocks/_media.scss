@@ -110,7 +110,7 @@
             display: none;
         }
         &__title {
-            font-size: 50px;
+            font-size: 48px;
         }
         &__subtitle {
             font-size: 32px;
@@ -123,9 +123,6 @@
             &:before {
                 width: 340px;
             }
-        }
-        &__wrapper {
-            flex-wrap: wrap;    
         }
         &__item {
             width: 180px;
