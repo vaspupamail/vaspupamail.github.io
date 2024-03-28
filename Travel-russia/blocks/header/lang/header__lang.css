@@ -1,0 +1,22 @@
+.header__lang {
+  color: white;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 28px;
+  text-decoration: none;
+  margin-left: 18px;
+  opacity: 1;
+  transition: all .5s ease-in-out;
+}
+
+.header__lang:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 480px) {
+  .header__lang {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
