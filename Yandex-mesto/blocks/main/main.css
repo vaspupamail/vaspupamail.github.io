@@ -1,0 +1,22 @@
+.main {
+    margin: 0 auto;
+    max-width: 880px;
+}
+
+@media (max-width: 900px) {
+    .main {
+        max-width: calc(100% - 50px*2)
+    }
+}
+
+@media (max-width: 720px) {
+    .main {
+        max-width: calc(100% - 25px*2)
+    }
+}
+
+@media (max-width: 400px) {
+    .main {
+        max-width: calc(100% - 19px*2)
+    }
+}

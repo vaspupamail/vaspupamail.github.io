@@ -1,0 +1,26 @@
+.header {
+    max-width: 880px;
+    margin: 45px auto 40px auto;
+    min-height: 72px;
+    border-bottom: 1px solid rgb(84, 84, 84);
+}
+
+@media (max-width: 900px) {
+    .header {
+        max-width: calc(100% - 50px*2);
+    }
+}
+
+@media (max-width: 720px) {
+    .header {
+        max-width: calc(100% - 25px*2);
+    }
+}
+
+@media (max-width: 400px) {
+    .header {
+        max-width: 100%;
+        min-height: 56px;
+        margin: 28px 0 38px 0;
+    }
+}
