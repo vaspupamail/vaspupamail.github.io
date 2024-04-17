@@ -5,3 +5,18 @@
     line-height: 22px;
     margin: 8px 0 0 0;
 }
+
+@media (max-width: 900px) {
+    .profile__subtitle {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 680px) {
+    .profile__subtitle {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        text-align: center;
+    }
+}

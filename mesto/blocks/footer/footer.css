@@ -2,3 +2,21 @@
     margin: 0 auto 30px auto;
     width: 880px;
 }
+
+@media (max-width: 900px) {
+    .footer {
+        max-width: calc(100% - 50px*2);
+    }
+}
+
+@media (max-width: 720px) {
+    .footer {
+        max-width: calc(100% - 25px*2);
+    }
+}
+
+@media (max-width: 400px) {
+    .footer {
+        max-width: calc(100% - 19px*2);
+    }
+}
