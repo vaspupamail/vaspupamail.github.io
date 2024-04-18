@@ -10,3 +10,11 @@
     font-weight: 400;
     line-height: 17px;
 }
+
+@media (max-width: 680px) {
+    .popup__input {
+        width: 239px;
+        height: 27px;
+        margin: 0 22px 30px 22px;
+    }
+}

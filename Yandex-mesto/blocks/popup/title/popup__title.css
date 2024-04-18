@@ -4,3 +4,11 @@
     line-height: 29px;
     margin: 34px 64px 37px 36px;
 }
+
+@media (max-width: 680px) {
+    .popup__title {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 25px 22px 55px 22px;
+    }
+}

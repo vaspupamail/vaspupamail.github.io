@@ -11,3 +11,10 @@
     -moz-text-size-adjust: 100%; 
     text-rendering: optimizeLegibility; 
 }
+
+@media (max-width: 680px) {
+    .popup__container {
+        width: 280px;
+    }
+
+}
