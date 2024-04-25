@@ -3,12 +3,11 @@
     height: 19px;
     background-color: white;
     background-image: url(../../../images/like_unaktive.svg);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: 22px 19px;
     border: none;
     margin: 28px 20px 30px auto;
-    transition: all 0.2s;
+    transition: opacity 0.2s ease-in-out;
 }
 
 .place__like-button:hover {
