@@ -88,7 +88,7 @@ function createCard (cardInfo) {
   elementPlaceImage.addEventListener("click", () => {
     photoPopupImage.src = cardInfo.link;
     photoPopupImage.alt = cardInfo.name;
-    photoPopup.querySelector('.place__signature').textContent = cardInfo.name;
+    photoPopup.querySelector('.popup__signature').textContent = cardInfo.name;
     openPopup(photoPopup);
   });
   return cardElement;
